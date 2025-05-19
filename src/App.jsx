@@ -1,16 +1,13 @@
-import { useState } from 'react'
-import Card from './Components/Card'
-import SearchBar from './Components/SearchBar'
-import HadithContainer from './Components/HadithContainer'
+import HadithContainer from './Components/HadithContainer';
+import Footer from './Components/Footer';
 
 function App() {
-
   return (
-    <div className='h-full'>
-    {/* <SearchBar /> */}
+    <div className="min-h-screen flex flex-col">
       <HadithContainer />
+      <Footer />
     </div>
-  )
+  );
 }
 
-export default App
+export default App;
